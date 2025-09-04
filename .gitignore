@@ -210,3 +210,8 @@ __marimo__/
 dataset/testing/*
 dataset/training/*
 dataset/validation/*
+
+
+
+# Heavy model files
+models/*.pth
