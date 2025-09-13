@@ -6,10 +6,10 @@ import pandas as pd
 sns.set(style="whitegrid", context="talk", palette="Set2")
 
 data = {
-    'Model': ['DenseNet-121', 'ResNet-18', 'EfficientNet-b0'],
-    'AUC': [0.8968, 0.8836, 0.9359],
-    'ACC': [0.9375, 0.9203, 0.9516],
-    'F1': [0.6875, 0.6222, 0.7207],
+    'Model': ['DenseNet-121', 'ResNet-18', 'EfficientNet-b0','VGG-16'],
+    'AUC': [0.8968, 0.8836, 0.9359, 0.9020],
+    'ACC': [0.9375, 0.9203, 0.9516, 0.8578],
+    'F1': [0.6875, 0.6222, 0.7207, 0.5027],
 }
 
 df = pd.DataFrame(data)
