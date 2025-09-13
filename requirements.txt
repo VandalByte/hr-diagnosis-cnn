@@ -7,3 +7,7 @@ scikit-learn
 albumentations
 timm
 streamlit
+
+# Code formatting tools
+isort
+black
